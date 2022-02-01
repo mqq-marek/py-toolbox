@@ -18,7 +18,7 @@ print(__file__)
 start()
 
 before = take_snapshot()
-person = Person('Marek', 1961, 'Krakow')
+person = Person('Y2kBug', 2000, 'Krakow')
 after = take_snapshot()
 print([name for name in dir(before) if not name.startswith('_')])
 print(__file__)
